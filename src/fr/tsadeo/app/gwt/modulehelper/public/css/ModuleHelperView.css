@@ -1,0 +1,331 @@
+body {
+	color: #4C1B1B;
+	font-family: 'Convergence',sans-serif;
+	background-color: #D5B795;
+}
+
+.gwt-Label {
+	font-family: 'Convergence',sans-serif;
+}
+.gwt-TabPanelBottom {
+    padding: 0px;
+    border-style: none;
+}
+.gwt-TabBar {
+	background-color: transparent;
+    padding-top: 6px;
+}
+.gwt-DisclosurePanel .header td {
+    color: white;
+}
+.gwt-DialogBox {
+	width: 800px;
+}
+.gwt-DialogBox .dialogMiddleCenter {
+	padding: 3px;
+	background: beige;
+}
+.notVisible {
+	 visibility: hidden;
+}
+.flag {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 100%;
+}
+.flagOK {
+	background-image: url("../images/flagOK.png");
+}
+.flagNok {
+	background-image: url("../images/flagNok.png");
+}
+.flagInProgress {
+	background-image: url("../images/flagInProgress.png");
+}
+
+
+.moduleHelperView {
+	height: 600px;
+	 width: 1120px;
+	 margin: auto;
+}
+
+.cursorInProgress {
+	cursor: wait;
+}
+
+.cursorHelp {
+	cursor: help;
+}
+
+.cursorLien:hover {
+    color: #9C301C;
+}
+.cursorLien {
+	cursor: pointer;
+}
+
+.gwt-ListBox {
+	 background-color: #E0CBC4;
+}
+.panelView {
+	height: 100%;
+	position: relative;
+    top: 10px;
+}
+
+.panelView .imageButton {	
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    border-color: transparent;
+}
+
+.panelView .imageButton.help {
+	background-image: url("../images/Help42x42.png");
+}
+.panelView .imageButton.demo {
+	background-image: url("../images/demo32x32.png");
+}
+
+
+.panelView .contentView {
+	background-color: #AA6F5E;
+	width: 100%;
+	height: 490px;
+	overflow: auto;
+	color: black;
+}
+
+.panelView .contentView .moduleContent {
+	height: 245px;
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+    background-color: #E0CBC4;
+}
+.panelView .contentView .myPanel {
+
+  padding: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100%;
+  width: 99%;
+}
+.panelView .contentView .whiteLabel{
+	color: white;
+}
+.module  {
+	color: #035348;
+}
+.virtualModule  {
+	color: #81A29E;
+}
+
+.mytable {
+
+  padding: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.mytable .myheader{
+	text-align: center;
+	font-family: 'Convergence', sans-serif;
+	font-size: 12px;
+	background: #004F6D; /* Old browsers */
+	background: -moz-linear-gradient(left top, #004F6D 0%, #00829B 20%, #004F6D 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(to right,  #004F6D 0%,#00829B 21%, #004F6D 100%);
+	color: beige;
+}
+
+.mytable col {
+  width: 200px;
+}
+
+.mytable .textbox {
+	font-family: 'Convergence';
+	color: #035348;
+	background-color:  white;	
+}
+.mytable .filterbox {
+	font-family: 'Convergence';
+	color: #035348;
+	background-color:  white;
+	width: 95%;
+	height: 10px;	
+	background-color: #FACB5E;
+}
+.mytable .text {
+	font-size: 11px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-family: 'Convergence';
+	width: 200px;
+}
+.mytable .text.conditional {
+	color: red;
+	cursor: help;
+}
+.panelView .contentView .tabPanel{
+	width: 100%;
+	margin-top: 10px;
+}
+.panelView .panelTitle {
+	background-color: #EE913C;
+	border-radius: 0 30px 0 0;
+	width: 100%;
+	height: 50px;
+	font-family: 'Salsa', cursive;
+	text-align: center;
+	font-size: 42px;
+}
+.panelTitle .imageIcone{
+	background-repeat: no-repeat;
+	background-position: right center;   
+	position: relative;
+	top: -10px;
+	right: 5px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.panelTitle .imgProjet{
+	background-image: url("../images/projet42x42.png");
+}
+.panelTitle .imgModule{
+	background-image: url("../images/module42x42.png");
+}
+.panelTitle .imgCompilation{
+	background-image: url("../images/compilation42x42.png");
+}
+.panelTitle .imgProperty{
+	background-image: url("../images/property42x42.png");
+}
+.panelTitle .imgInterface{
+	background-image: url("../images/interface42x42.png");
+}
+
+.panelMenu {
+	border-radius: 30px 0 0 0;
+	background-color: #EE913C;
+	width: 100%;
+	height: 100%;
+	position: relative;
+    top: 10px;
+}
+
+.panelMenu .title {
+	width: 100%;
+	height: 50px;
+}
+.panelMenu .contentMenu {
+	
+}
+
+
+.panelMenu .panelButton{
+	height: 10px;
+	width: 150px;
+}
+.panelButton .button:hover {
+background: #fefefd; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #fefefd 0%, #dce3c4 42%, #aebf76 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fefefd), color-stop(42%,#dce3c4), color-stop(100%,#aebf76)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.panelButton .button {
+	height: 35px;
+    margin: 10px;
+    width: 130px;
+	
+background: #fefefd; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefd 0%, #dce3c4 42%, #aebf76 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefd), color-stop(42%,#dce3c4), color-stop(100%,#aebf76)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fefefd 0%,#dce3c4 42%,#aebf76 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=0 ); /* IE6-9 */
+}
+.panelButton .imageIcone{
+	background-repeat: no-repeat;
+	background-position: right center;   
+	position: relative;
+	top: 40px;
+	right: 5px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.panelButton .imgProjet{
+	background-image: url("../images/projet32x32.png");
+}
+.panelButton .imgModule{
+	background-image: url("../images/module32x32.png");
+}
+.panelButton .imgCompilation{
+	background-image: url("../images/compilation32x32.png");
+}
+.panelButton .imgProperty{
+	background-image: url("../images/property32x32.png");
+}
+.panelButton .imgInterface{
+	background-image: url("../images/interface32x32.png");
+}
+
+
+.panelStatus {
+    background-color:  #996666;
+    width: 100%;
+	border-radius: 4px 4px 4px 4px;
+}
+.panelStatus .panelInfo{
+    height: 30px;
+    width: 80%;
+    overflow: auto;
+    text-overflow: ellipsis;
+    color: white;
+		border-radius: 4px 4px 4px 4px;
+}
+.panelStatus .error{
+    background-color: white;
+    color: red;
+    padding: 5px;
+		border-radius: 4px 4px 4px 4px;
+}
+
+.panelError {
+	background-color: white;
+    color: red;
+    padding: 5px;
+    width: 80%;
+      margin-left: 5px;
+    margin-top: 5px;
+}
+.row1 {
+	 background-color:  white;
+}
+.row2 {
+	 background-color:  #B6E3E6;
+}
+.row2:hover {
+    background-color: #FFF2C9;
+}
+ 
+.row1:hover {
+    background-color: #FFF2C9;
+}
